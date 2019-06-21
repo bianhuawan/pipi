@@ -1,0 +1,166 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	background: url(image/jiewu2.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.page1 img {
+	position: absolute;
+}
+
+.page1 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 0rem;
+}
+
+.page1 img:nth-of-type(2) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 2.22rem;
+}
+
+.page1 img:nth-of-type(3) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 4.44rem;
+}
+
+
+/* PAGE2 */
+
+.page2 {
+	background: url(image/ceer2.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 0rem;
+}
+
+.page2 img:nth-of-type(2) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: -.01rem;
+	top: 2.22rem;
+}
+
+.page2 img:nth-of-type(3) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 4.44rem;
+}
+
+/* PAGE3 */
+.page3 {
+	background: url(image/qianxun5.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.page3 img {
+	position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+	width: 2.5rem;
+	left: 0;
+	top: 0rem;
+}
+
+.page3 img:nth-of-type(2){
+	width: 2.5rem;
+	top: 0.3rem;
+	left: 0.95rem;
+}
+.page3 img:nth-of-type(3){
+	width: 2.5rem;
+	top: 3.8rem;
+	left: 0rem;
+}
+.page3 img:nth-of-type(4){
+	width: 2.5rem;
+	top: 2.8rem;
+	left: .9rem;
+}
+.page3 img:nth-of-type(5){
+	width: 2.5rem;
+	top: 2rem;
+	left: 1.9rem;
+}
+.page3 img:nth-of-type(6){
+	width: 2.5rem;
+	top: .6rem;
+	left: 1.2rem;
+}
+.page3 img:nth-of-type(7){
+	width: 2.5rem;
+	top: 1.4rem;
+	left: 0.3rem;
+}.page3 img:nth-of-type(8){
+	width: 2.5rem;
+	top: 2.2rem;
+	left: 0.2rem;
+}
+/* PAGE4 */
+
+.page4 {
+	background: url(image/beijing.jpeg) no-repeat;
+	background-size: cover;
+}
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+	width: 3.75rem;
+	left: 0rem;
+	top: 0rem;
+}
+
+.page4 img:nth-of-type(2) {
+	width: 3.75rem;
+	height: 2.22rem;
+	left: 0rem;
+	top: 2.22rem;
+}
+
+
+.page4 img:nth-of-type(3) {
+	width: 3.75rem;
+	left: 0rem;
+	top: 0rem;
+}
+
+.page4 img:nth-of-type(4) {
+	width: 3.75rem;
+	height: 6.67;
+	left: 0rem;
+	top:0rem;
+}
+
+.page4 img:nth-of-type(5) {
+	width: 3.75rem;
+	left: 0rem;
+	bottom:2rem;
+}
